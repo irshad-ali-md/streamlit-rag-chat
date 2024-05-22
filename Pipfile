@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+langchain-community = "*"
+langchain-core = "*"
+streamlit = "*"
+streamlit-chat = "*"
+sentence-transformers = "*"
+pinecone = "*"
+langchain-pinecone = "*"
+datasets = "*"
+pinecone-text = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
